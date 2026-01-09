@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --blue: #1c5ae6;
+    --blue2: #1999e6;
+    --blue3: #1515ab;
+    --blue4: #18bccb;
+    --blue5: #150239;
+    --white: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+/*Estilização da navbar*/
+
+.navbar {
+    position: relative;
+    z-index: 1000;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    background-color: var(--blue);
+    padding: 10px 40px;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    height: 50px;
+    margin: 30px;
+}
+
+.navbar a {
+    color: var(--white);
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-size: 17px;
+}
+
+.navbar a:hover{
+    font-size: 19px;
+    transition: 0.2s linear;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transform: scale(1.1);
+    border: 2px solid var(--blue);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+/* Fim da Estilização da navbar*/
+
+/* Estilização Inicio site*/
+.first-section{
+    background-image: url(imgs/pngtree-3d-illustration-of-a-laptop-wielding-freelance-developer-picture-image_5836513.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    border-radius: 0 0 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    margin-top: -130px;
+}
+
+.first-section .content h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: "Montserrat";
+}
+
+.first-section .content p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 100px;
+    font-family: "Montserrat";
+}
+
+.first-section .content .btn{
+  background-color: white;
+  color: var(--blue);
+  padding: 12px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 30px;
+  transition: transform 0.2s;
+  font-family: "Montserrat";
+}
+
+.first-section .content .btn:hover{
+    color: var(--white);
+    background-color: var(--blue3);
+    transition: 0.2s linear;
+}
+/* Fim da Estilização Inicio site*/
