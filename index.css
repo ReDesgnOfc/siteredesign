@@ -110,6 +110,39 @@ body{
 }
 /* Fim da Estilização Inicio site*/
 
+/* Sobre nós*/
+.aboutus{
+    background-color: var(--white);
+    margin: 70px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.aboutus h1{
+    text-transform: uppercase;
+    font-family: "Poppins";
+    padding-top: 20px;
+    color: var(--blue);
+}
+
+.aboutus .conteiner{
+    display: flex;
+}
+
+.aboutus .conteiner .content{
+    width: 50%;
+    margin: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.aboutus .conteiner .content img{
+    width: 150px;
+    height: 150px;
+}
+/* Fim Sobre nós*/
+
 /* Sobre a equipe*/
 .team{
     margin-top: 70px;
@@ -251,7 +284,8 @@ body{
  .def .item .btn:hover{
     color: var(--white);
     background-color: #1515ab;
-    transition: 0.5s linear;
+    transition: 0.3s linear;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
  }
 
 .conteiner-geral{
@@ -267,39 +301,39 @@ body{
     padding-bottom: 25px;
 }
 
-.tabs-control { 
-    margin-bottom: 30px; 
+.conteiner-geral h2{
+    color: var(--white);
+    font-family: "poppins";
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding-bottom: 25px;
 }
 
-.tab-btn {
-  background: none;
-  border: none;
-  color: white;
-  font-weight: bold;
-  font-size: 1.5rem;
-  cursor: pointer;
-  margin: 0 15px;
-  padding-bottom: 5px;
+.tab-content2 h2{
+    color: var(--white);
+    font-family: "poppins";
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    text-align: center;
 }
 
-.tab-btn.active { 
-    border-bottom: 3px solid white;
-    opacity: 0.6;
+.tab-content2 { 
+    display: block;
+    background-color: var(--blue);
+    text-align: center;
+    padding-top: 30PX;
+    padding-bottom: 50px;
 }
 
-.tab-content { 
-    display: none;
-    opacity: 0; 
-    transition: opacity 0.3s ease;
-}
-.tab-content.active { 
+.tab-content1 { 
     display: block; 
 }
 
 .grid-pacotes {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 75px;
   flex-wrap: wrap;
 }
 
@@ -309,7 +343,16 @@ body{
   border-radius: 15px;
   overflow: hidden;
   height: 300px;
+  position: static;
 }
+
+.card:hover{
+    height: 305px;
+    width: 305px;
+    transition: 0.2s linear;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.6);
+}
+
 
 .card .title{
     font-family: "poppins";
@@ -321,6 +364,7 @@ body{
     align-items: center;
     text-align: center;
     justify-content: center;
+    
 }
 
 .card p{
@@ -347,5 +391,12 @@ body{
     color: var(--white);
     background-color: #1515ab;
     transition: 0.5s linear;   
+}
+
+.ptext{
+    color: var(--white);
+    text-align: center;
+    font-family: "Montserrat";
+    padding-bottom: 30px;
 }
 /* Fim de Serviços*/
