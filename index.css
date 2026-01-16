@@ -160,5 +160,192 @@ body{
 /* Fim Sobre a equipe*/
 
 /* Serviços*/
+ .services{
+    background-color: var(--blue);
+    margin-top: 100px;
+    border-radius: 40px;
+ }
+
+ .text{
+    display: flex;
+    color: var(--white);
+    padding: 50px;
+ }
  
+ .text .about{
+    width: 50vw;
+    padding-inline-end: 30px;
+ }
+
+ .text .about h1{
+    font-family: "poppins";
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+ }
+
+ .text .about p{
+    font-family: "Montserrat";
+ }
+
+ .text .cards{
+    display: grid;
+    margin-top: 20px;
+    text-align: center;
+    width: 40vw;
+    align-items: center;
+ }
+
+ .text .cards p{
+    text-decoration: none;
+    color: var(--white);
+    font-family: "Poppins";
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 3px solid var(--white);
+    border-radius: 10px;
+ }
+
+ .text .cards p:hover{
+    background-color: var(--blue3);
+    border: 3px solid var(--blue5);
+    transition: 0.5s linear;
+ }
+
+ .def{
+    display: flex;
+    padding: 50px;
+ }
+
+ .def .item{
+    padding: 20px;
+    color: var(--white);
+ }
+
+ .def .item h2{
+    font-family: "poppins";
+    text-transform: uppercase;
+    padding-bottom: 20px;
+ }
+
+ .def .item p{
+    font-family: "montserrat";
+    padding-top: 20px;
+    padding-bottom: 30px;
+ }
+
+ .def .item .btn{
+    background-color: white;
+    color: var(--blue);
+    padding: 12px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s;
+    font-family: "Montserrat";
+    margin-top: 80px;
+    text-transform: uppercase;
+ }
+
+ .def .item .btn:hover{
+    color: var(--white);
+    background-color: #1515ab;
+    transition: 0.5s linear;
+ }
+
+.conteiner-geral{
+    text-align: center;
+    padding: 40px;
+}
+
+.conteiner-geral h1{
+    color: var(--white);
+    font-family: "poppins";
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.tabs-control { 
+    margin-bottom: 30px; 
+}
+
+.tab-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0 15px;
+  padding-bottom: 5px;
+}
+
+.tab-btn.active { 
+    border-bottom: 3px solid white;
+    opacity: 0.6;
+}
+
+.tab-content { 
+    display: none;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+.tab-content.active { 
+    display: block; 
+}
+
+.grid-pacotes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 300px;
+}
+
+.card .title{
+    font-family: "poppins";
+    color: var(--white);
+    background-color: var(--blue5);
+    font-size: 1.5rem;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.card p{
+    font-family: "montserrat";
+    padding: 30px;
+}
+
+.card a{
+    background-color: var(--blue5);
+    color: var(--white);
+    padding: 12px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s;
+    font-family: "Montserrat";
+    margin-top: 80px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.card a:hover{
+    color: var(--white);
+    background-color: #1515ab;
+    transition: 0.5s linear;   
+}
 /* Fim de Serviços*/
