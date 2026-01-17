@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap');
+
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ===== SECTION ===== */
+.contact-section {
+    min-height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+/* ===== CONTENT ===== */
+.contact-content {
+    text-align: center;
+    color: #fff;
+    max-width: 600px;
+}
+
+/* ===== TITLE ===== */
+.contact-content h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    line-height: 1.2;
+}
+
+/* ===== TEXT ===== */
+.contact-content p {
+    font-size: 16px;
+    margin-bottom: 12px;
+    opacity: 0.85;
+}
+
+/* ===== BUTTONS ===== */
+.contact-content a {
+    display: block;
+    width: 260px;
+    margin: 20px auto 0;
+    padding: 14px 0;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+/* ===== BUTTON HOVER ===== */
+.contact-content a:hover {
+    background-color: #ddd;
+    transform: translateY(-2px);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .contact-content h1 {
+        font-size: 36px;
+    }
+
+    .contact-content a {
+        width: 220px;
+    }
+}
